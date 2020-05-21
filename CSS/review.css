@@ -8,8 +8,6 @@
 #navbar {
   display: flex; /*Using FlexBox*/
   align-items: center;
-  position: relative;
-  top: 0px;
 }
 
 /* Navigation Bar : Logo and Image */
@@ -24,13 +22,14 @@
 }
 
 /* Navigation Bar : List Styling */
+#navbar {
+  position: relative;
+}
 
 #navbar::before {
   content: "";
-  background-color: lightgoldenrodyellow;
+  /*background-color: lightgoldenrodyellow;*/
   position: absolute;
-  top: 0px;
-  left: 0px;
   height: 100%;
   width: 100%;
   z-index: -1;
@@ -61,103 +60,66 @@
   background-color: lightgoldenrodyellow;
 }
 
-/* Home Section */
 
-#home {
+/* Utility Class */
+.h-primary {
+  font-size: 3.5rem;
+  padding: 15px;
+  position: relative;
+  float: left;
+}
+
+
+#review_section {
   display: flex;
   flex-direction: column;
-  padding: 3px 200px;
-  height: 645px;
+  padding: 50px 200px;
+  height: 100%;
   justify-content: center;
   align-items: center;
 }
-
-#home::before {
+#review_section::before {
   content: "";
-  background: url(../Pictures/background.jpg) no-repeat center center/cover;
+  /*background: url(../Pictures/qt-bg.jpg) no-repeat center center/cover;*/
   position: absolute;
-  top: 0px;
-  left: 0px;
   height: 100%;
   width: 100%;
   z-index: -1;
   opacity: 0.95;
 }
 
-#home h1 {
+#review_section h1 {
   color: white;
   text-align: center;
   font-family: "Bree Serif", serif;
 }
 
-#home p {
+#review_section div p {
   color: white;
   text-align: center;
   font-size: 1.5rem;
   font-family: "Bree Serif", serif;
+  position: relative;
+  float: left;
+  width: 32%;
+  height: 500px;
+  padding: 2.5%;
+  text-align: justify;
+
+}
+#review_section div p:hover{
+  
+  color:purple;
+  background-image: url(../Pictures/review1.png);
+  border-radius: 1cm;
+  
+}
+body{
+  background-image: url(../Pictures/qt-bg.jpg) ;
 }
 
-/* Services Section */
 
-#services {
-  margin: 25px;
-  display: flex;
-}
-
-#services .box {
-  border: 2px solid brown;
-  margin: 2px;
-  border-radius: 10px;
-  background: #fad265;
-}
-
-#services .box img {
-  height: 310px;
-  margin: 7px 7px;
-  display: block;
-}
-#services .box p {
-  font-family: "Bree Serif", serif;
-}
-#services {
-}
-#services {
-}
-#services {
-}
-
-/* Utility Class */
-.h-primary {
-  font-family: "Bree Serif", serif;
-  font-size: 3.5rem;
-  padding: 15px;
-}
-
-.h-secondary {
-  font-family: "Bree Serif", serif;
-  font-size: 2.5rem;
-  padding: 15px;
-}
-
-.btn {
-  padding: 10px 25px;
-  border: 3px solid orange;
-  background-color: gold;
-  color: whitesmoke;
-  margin: 20px;
-  font-size: 1.5rem;
-  border-radius: 30px;
-  cursor: pointer;
-}
-
-.center {
-  text-align: center;
-}
-
-/*------------------------------------------------------------------
-    Footer
--------------------------------------------------------------------*/
-
+/*Footer*/
 .footer-area {
   padding-top: 50px;
   padding-bottom: 0px;
@@ -293,3 +255,4 @@
 .copyright .company-name a {
   font-size: 16px;
 }
+

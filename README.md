@@ -1,5 +1,3 @@
-# Urban Spice | Restaurant Website
-
 <div align="center">
   <br>
   <img alt="PopFlix" src="https://i.ibb.co/nCPydWt/chrome-Wy-OR0eu84-U.png" alt="urban_spice_logo">
@@ -7,7 +5,9 @@
   <strong>Restaurant Website to Display Food and Allow Users to Order Food</strong>
 </div>
 
+<center>
 [Live Demo](https://mystifying-shaw-aa5076.netlify.app/)
+</center>
 
 - Your special occasion destination Where Indian Food is Served at its Best. We Try to Bring the Pleasure of variety on your plate to A "Just Vow" Movement! This is a luxury restaurant beyond the Boundaries of taste!
 - Generate Bill Dynamic and Media Query Support Responsive
@@ -16,21 +16,21 @@
 ### Home Page
 
 <p align="center">
-  <img src="/Pictures/read_me_img/home_1.jpg" width="650" >
+  <img src="/Pictures/read_me_img/home_1.jpg" width="700" >
 </p>
 
 <p align="center">
-  <img src="/Pictures/read_me_img/home_2.png" width="650" >
+  <img src="/Pictures/read_me_img/home_2.png" width="700" >
 </p>
 
 ### Pages of Website
 
 ```
--	`Index.html` ( Main Landing Page ) ( Home )
--	Special Menu Page ( Contains Cart & Bill Page )
--	About Us ( Story How this Emerged? )
--	Contact Us ( JS Validation )
--	Review's of Customer
+`Index.html` ( Main Landing Page ) ( Home )
+Special Menu Page ( Contains Cart & Bill Page )
+About Us ( Story How this Emerged? )
+Contact Us ( JS Validation )
+Review's of Customer
 ```
 
 ### Index.html
@@ -38,13 +38,13 @@
 -	Preloader
 
 <p align="center">
-  <img src="/Pictures/read_me_img/pre_loader.png" width="650" >
+  <img src="/Pictures/read_me_img/pre_loader.png" width="700" >
 </p>
 
 -	Newsletter after 30 Seconds ( Email JS Validation also Done )
 
 <p align="center">
-  <img src="/Pictures/read_me_img/newsletter.jpg" width="650" >
+  <img src="/Pictures/read_me_img/newsletter.jpg" width="700" >
 </p>
 
 -	Logo & Navigation Bar
@@ -59,36 +59,36 @@
 -	Navigation Bar
 
 <p align="center">
-  <img src="/Pictures/read_me_img/menu_1.jpg" width="650" >
+  <img src="/Pictures/read_me_img/menu_1.jpg" width="700" >
 </p>
 
 -	Course Menu ( 5 Sub-Heading )
 
 <p align="center">
-  <img src="/Pictures/read_me_img/menu_2_north.jpg" width="650" >
+  <img src="/Pictures/read_me_img/menu_2_north.jpg" width="700" >
 </p>
 
 <p align="center">
-  <img src="/Pictures/read_me_img/menu_3_south.jpg" width="650" >
+  <img src="/Pictures/read_me_img/menu_3_south.jpg" width="700" >
 </p>
 
 <p align="center">
-  <img src="/Pictures/read_me_img/menu_4_italian.jpg" width="650" >
+  <img src="/Pictures/read_me_img/menu_4_italian.jpg" width="700" >
 </p>
 
 <p align="center">
-  <img src="/Pictures/read_me_img/menu_5_asian.png" width="650" >
+  <img src="/Pictures/read_me_img/menu_5_asian.png" width="700" >
 </p>
 
 <p align="center">
-  <img src="/Pictures/read_me_img/menu_6_desert.jpg" width="650" >
+  <img src="/Pictures/read_me_img/menu_6_desert.jpg" width="700" >
 </p>
 
 -	4 Items in Each Sub-Heading ( with “+” Button for Adding to Cart )
 -	Final Order Page & Billing Amount 
 
 <p align="center">
-  <img src="/Pictures/read_me_img/bill.jpg" width="650" >
+  <img src="/Pictures/read_me_img/bill.jpg" width="700" >
 </p>
 
 -	Footer, CSS in menu.css and JS in `order.js` and `ordercontrol.js`
@@ -103,7 +103,7 @@
 -	Related CSS in `about_us.css`
 
 <p align="center">
-  <img src="/Pictures/read_me_img/about_us.jpg" width="650" >
+  <img src="/Pictures/read_me_img/about_us.jpg" width="700" >
 </p>
 
 ### Contact Us Page
@@ -116,7 +116,7 @@
 -	Contact Details and Footer ( CSS in `style.css` and JS in `about_us.js`)
  
 <p align="center">
-  <img src="/Pictures/read_me_img/contact_us.png" width="650" >
+  <img src="/Pictures/read_me_img/contact_us.png" width="700" >
 </p>
 
 ### Reviews Of Customer Page
@@ -128,7 +128,7 @@
 -	CSS in `review.css`
  
  <p align="center">
-  <img src="/Pictures/read_me_img/review.png" width="650" >
+  <img src="/Pictures/read_me_img/review.png" width="700" >
 </p>
 
 ### Media Query Support

@@ -5,9 +5,9 @@
   <strong>Restaurant Website to Display Food and Allow Users to Order Food</strong>
 </div>
 
-<center>
-[Live Demo](https://mystifying-shaw-aa5076.netlify.app/)
-</center>
+<p align="center">
+    [Live Demo](https://mystifying-shaw-aa5076.netlify.app/)
+</p>
 
 - Your special occasion destination Where Indian Food is Served at its Best. We Try to Bring the Pleasure of variety on your plate to A "Just Vow" Movement! This is a luxury restaurant beyond the Boundaries of taste!
 - Generate Bill Dynamic and Media Query Support Responsive

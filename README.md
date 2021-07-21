@@ -6,7 +6,7 @@
 </div>
 
 <p align="center">
-    [Live Demo](https://mystifying-shaw-aa5076.netlify.app/)
+    <a href="https://mystifying-shaw-aa5076.netlify.app/">Live Demo</a>
 </p>
 
 - Your special occasion destination Where Indian Food is Served at its Best. We Try to Bring the Pleasure of variety on your plate to A "Just Vow" Movement! This is a luxury restaurant beyond the Boundaries of taste!
